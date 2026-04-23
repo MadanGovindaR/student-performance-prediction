@@ -1,12 +1,24 @@
-# student-performance-prediction
-Machine Learning project to predict student performance using multiple models.
-## 📂 Dataset Information
+## 📸 Project Outputs
 
-The dataset includes the following features:
+### Accuracy Output
+![Accuracy](accuracy output.png)
 
-- Study_Hours – Daily study time
-- Attendance – Attendance percentage
-- Previous_Marks – Past academic scores
-- Assignments – Assignment marks
-- Internal_Marks – Internal assessment marks
-- Final_Result – Pass or Fail (Target Variable)
+### Confusion Matrix
+![Confusion Matrix](confusion matrix.png)
+
+### Feature Importance
+![Feature Importance](feature importance graph.png)
+
+---
+
+## 📊 Sample Prediction
+
+Example input:
+
+Study Hours: 6  
+Attendance: 85  
+Previous Marks: 70  
+Assignments: 80  
+Internal Marks: 75  
+
+Predicted Result: PASS
